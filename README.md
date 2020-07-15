@@ -1,6 +1,6 @@
 # README
 
-This is part of a tutorial - https://www.youtube.com/watch?v=AMai9EZesXY
+Created while following Ruby on Rails Tutorial | Build a Book Review App - https://www.youtube.com/watch?v=AMai9EZesXY
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
