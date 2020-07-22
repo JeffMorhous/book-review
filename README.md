@@ -1,26 +1,13 @@
-# README
+# Book Review App
 
-Created while following Ruby on Rails Tutorial | Build a Book Review App - https://www.youtube.com/watch?v=AMai9EZesXY
+The application allows users to create accounts and sign in. Users can add books, which contain a catgory, an image, a title, a description, and author.
+Users can also leave reviews on different books.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Created to learn while following Ruby on Rails Tutorial | Build a Book Review App**
 
-Things you may want to cover:
+- [Part 1](https://www.youtube.com/watch?v=AMai9EZesXY)
+- [Part 2](https://www.youtube.com/watch?v=lXnK4foYtCk)
+- [Part 3](https://www.youtube.com/watch?v=zeCp6IzOrpk)
+- [Part 4](https://www.youtube.com/watch?v=wOIQDO1yF80)
 
-- Ruby version
-
-- System dependencies
-
-- Configuration
-
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+**Dependencies**
