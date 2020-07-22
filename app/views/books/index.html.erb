@@ -1,4 +1,8 @@
-<h1>Index View</h1>
-<% @books.each do |b|%>
-  <h2><%= link_to b.title, book_path(b) %></h2>
+<h1><%= params[:category] %></h1>
+<% if @books.count == 0 %>
+  <h3>There are no books in this category, feel free to add one 💙</h3>
+<% else %>
+  <% @books.each do |b|%>
+    <h2><%= link_to b.title, book_path(b) %></h2>
+  <% end %>
 <% end %>
