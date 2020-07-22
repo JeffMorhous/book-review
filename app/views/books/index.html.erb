@@ -2,7 +2,11 @@
 <% if @books.count == 0 %>
   <h3>There are no books in this category, feel free to add one 💙</h3>
 <% else %>
-  <% @books.each do |b|%>
-    <h2><%= link_to b.title, book_path(b) %></h2>
-  <% end %>
+  <div class="row">
+    <% @books.each do |b|%>
+      <div class="col-md-3">
+        <a href="/books/<%= b.id %>"><%= image_tag  b.book_img.url(:book_index), class: "book" %></a>
+      </div>
+    <% end %>
+  </div>
 <% end %>
